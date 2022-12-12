@@ -1,0 +1,180 @@
+%!TeX program = xelatex
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+
+\newif\iffrench
+\frenchtrue  % \frenchfalse for english
+
+\usepackage{amsmath}
+\usepackage[MnSymbol]{mathspec}
+\usepackage[unicode=true]{hyperref}
+\hypersetup{pdfborder={0 0 0}, breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage[a4paper, left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{float}
+\usepackage{censor}
+\usepackage{booktabs}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{5cm}  % prevent overfull lines
+
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setlength\intextsep{0pt}
+
+\setcounter{secnumdepth}{0}
+
+\usepackage{polyglossia}
+\iffrench \setmainlanguage{french} \else \setmainlanguage{english} \fi
+\usepackage{csquotes}
+\iffrench \newcommand{\inpath}{contents_FR} \else \newcommand{\inpath}{contents_EN} \fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+% Uses a mix of Times-like fonts (TeX Gyre Termes + STIX) to get everything right
+\usepackage{setspace}
+\setstretch{1.02}
+\setmainfont{TeX Gyre Termes}
+\setmathsfont(Digits,Latin)[Scale=MatchLowercase]{TeX Gyre Termes}
+\setmathsfont(Greek)[Scale=MatchLowercase]{STIXGeneral}
+\setmathrm[]{STIXGeneral}
+\setmathcal[Scale=MatchUppercase]{TeX Gyre Chorus}
+
+
+\usepackage[dvipsnames]{xcolor}
+\definecolor{maincolor}{HTML}{3978af}
+\hypersetup{
+    colorlinks, linkcolor=maincolor, citecolor=maincolor, urlcolor=maincolor,
+    bookmarksnumbered, bookmarks=false,
+    pdfinfo={
+        Title={Curriculum Vitae},
+        Author={Florian F\'eruzor\'e},
+        Creator={Florian K\'eruzor\'e},
+        Subject={Curriculum Vitae},
+        Keywords={Curriculum Vitae},
+        CreationDate={\today}}
+}
+\usepackage{multirow}
+\usepackage{enumitem}
+
+%%% Bibliography
+\usepackage[%
+    backend=biber,
+    style=numeric,
+    citestyle=numeric-comp,
+    sorting=none,
+    giveninits=true
+]{biblatex}
+\addbibresource{\inpath/cv.bib}
+\AtEveryBibitem{\clearfield{url}}
+\AtEveryBibitem{\clearfield{urlyear}}
+\AtEveryBibitem{\clearlist{language}}
+\AtEveryBibitem{\clearfield{month}}
+\AtEveryBibitem{\clearfield{issn}}
+\AtEveryBibitem{\clearfield{doi}}
+%\AtEveryBibitem{\clearfield{series}}
+\AtEveryBibitem{\clearfield{booktitle}}
+\AtEveryBibitem{\clearfield{pages}}
+\AtEveryBibitem{\clearfield{eid}}
+\AtEveryBibitem{\clearfield{eprintclass}}
+\AtEveryBibitem{\clearlist{publisher}}
+\AtEveryBibitem{\clearfield{note}}
+\AtEveryCitekey{\UseBibitemHook}
+% Remove weird random smallcaps coming from french (why?)
+\addto\captionsfrench{\def\figurename{Figure}}
+\addto\captionsfrench{\def\tablename{Table}}
+\DefineBibliographyExtras{french}{\restorecommand\mkbibnamefamily} % author names in bib
+\DefineBibliographyStrings{french}{phdthesis = {Thèse de doctorat}}
+
+% Italicize et al.
+\renewbibmacro*{name:andothers}{% Based on name:andothers from biblatex.def
+  \ifboolexpr{
+    test {\ifnumequal{\value{listcount}}{\value{liststop}}}
+    and
+    test \ifmorenames
+  }
+    {\ifnumgreater{\value{liststop}}{1}
+       {\finalandcomma}
+       {}%
+     \andothersdelim\bibstring[\emph]{andothers}}
+    {}
+}
+
+\renewbibmacro{in:}{,}
+\DeclareFieldFormat{postnote}{#1}
+
+\usepackage{hanging}
+\newcommand\publication[1]{%
+    \smallskip\par\hangpara{1.5em}{1}\bibentry{#1}\smallskip
+}
+\usepackage{aas}
+
+%%% Itemize stuff
+\renewcommand{\labelitemi}{--}
+\newcommand{\tabitem}{~~\llap{--}~~}
+
+%%% Section spacing
+\usepackage[explicit]{titlesec}
+% How it works: \titlespacing*{<command>}{<left>}{<before-sep>}{<after-sep>}
+\titlespacing*{\section}{0pt}{15pt}{5pt}
+\titlespacing*{\subsection}{0pt}{5pt}{0pt}
+\titlespacing*{\subsubsection}{0pt}{-5pt}{-5pt}
+
+\titleformat{\section}[hang]{\Large\bfseries}{}{0.5ex}%
+  {\noindent%
+  \color{maincolor}%
+  \raisebox{0.222ex}{\hbox to 0.975\textwidth{%
+  \vrule width2ex height4pt depth0ex\hskip10pt%
+  \raisebox{-0.222ex}{\textcolor{maincolor}{#1}}%
+  \hskip10pt%
+  \leaders\vrule height4pt depth0ex\hfill}}}[\smallskip]
+
+\date{}
+
+% ========================================================================== %
+%                                                                            %
+% ------------------------------    BEGIN    ------------------------------- %
+%                                                                            %
+% ========================================================================== %
+
+\begin{document}
+\pagenumbering{gobble}
+
+\begin{table}[H]
+{\def\arraystretch{1.2}\tabcolsep=3pt
+    \begin{tabular}{p{.5\linewidth} r l}
+
+    {\LARGE \bfseries \textcolor{maincolor}{Florian K\'eruzor\'e}} &  &  \\[15pt]
+    Cosmological Physics \& Advanced Computing & Téléphone: & (+1) 224-277-7384 \\
+    High Energy Physics Division & Email: & \href{mailto:fkeruzore@anl.gov}{fkeruzore@anl.gov} \\
+    Argonne National Laboratory & ORCID: & \href{https://orcid.org/0000-0002-9605-5588}{0000-0002-9605-5588} \\
+    Lemont, IL, USA & Github: & \href{https://github.com/fkeruzore}{fkeruzore}
+\end{tabular}}
+\end{table}
+\vspace{-15pt}
+
+% ========================================================================== %
+% ========================================================================== %
+
+\input{\inpath/section_postdoc.tex}
+\input{\inpath/section_phd.tex}
+\input{\inpath/section_resp.tex}
+
+\newpage
+\input{\inpath/section_collabs.tex}
+\input{\inpath/section_skills.tex}
+\input{\inpath/section_education.tex}
+\input{\inpath/section_schools.tex}
+\input{\inpath/section_teach.tex}
+
+\newpage
+\input{\inpath/section_talks.tex}
+\input{\inpath/section_codes.tex}
+\input{\inpath/section_publis.tex}
+
+%\input{section_proposals.tex}
+
+\end{document}
