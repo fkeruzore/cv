@@ -25,11 +25,13 @@ parser.add_argument(
     "--keepbib",
     default=False,
     help="Don't overwrite the existing cv.bib file",
+    action="store_true",
 )
 parser.add_argument(
     "--fr",
     default=False,
     help="Make the text French",
+    action="store_true",
 )
 args = parser.parse_args()
 
@@ -83,8 +85,11 @@ my_bibcodes = {
 
 # Write .bib file
 my_bibtexs_all = bibcode_to_bibtex(my_pubs["documents"])
-if not args.keepbib:
+if args.keepbib:
+    print("Conserving current bib file")
+else:
     bib_file = "./contents_FR/cv.bib" if args.fr else "./contents_EN/cv.bib"
+    print(f"Writing {bib_file}...")
     with open(bib_file, "w") as f:
         # Start with thesis entry, not in ADS
         f.write(
@@ -102,11 +107,16 @@ if not args.keepbib:
         f.write(my_bibtexs_all["export"])
 
 # Write .tex file
-with open("./section_publis.tex", "w") as f:
+tex_file = "./contents_FR/section_publis.tex" if args.fr else "./contents_EN/section_publis.tex"
+with open(tex_file, "w") as f:
     f.write("\\section{Publications}\n")
     n_papers = len(my_bibcodes["co_papers"]) + len(my_bibcodes["fa_papers"])
     n_procs = len(my_bibcodes["co_procs"]) + len(my_bibcodes["fa_procs"])
 
+    print(
+        f"{n_papers + n_procs} publications found:",
+        f"{n_papers} papers, {n_procs} proceedings",
+    )
     # Overhead: publication counts
     if args.fr:
         today = datetime.date.today().strftime("%d/%m/%y")
@@ -127,7 +137,9 @@ with open("./section_publis.tex", "w") as f:
 
     # Papers
     if args.fr:
-        f.write("\n\\subsection{Articles dans des revues à comité de lecture}\n")
+        f.write(
+            "\n\\subsection{Articles dans des revues à comité de lecture}\n"
+        )
     else:
         f.write("\n\\subsection{Peer-reviewed articles}\n")
 
