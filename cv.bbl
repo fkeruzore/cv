@@ -71,7 +71,7 @@
       \field{eid}{arXiv:2212.01439}
       \field{eprintclass}{astro-ph.IM}
       \field{eprinttype}{arXiv}
-      \field{journaltitle}{Soumis pour publication}
+      \field{journaltitle}{Submitted}
       \field{month}{12}
       \field{title}{{panco2: a Python library to measure intracluster medium pressure profiles from Sunyaev-Zeldovich observations}}
       \field{year}{2022}
@@ -876,7 +876,7 @@
       \field{eid}{arXiv:2209.07460}
       \field{eprintclass}{astro-ph.CO}
       \field{eprinttype}{arXiv}
-      \field{journaltitle}{Soumis pour publication}
+      \field{journaltitle}{Submitted}
       \field{month}{9}
       \field{title}{{Multi-probe analysis of the galaxy cluster CL J1226.9+3332: Hydrostatic mass and hydrostatic-to-lensing bias}}
       \field{year}{2022}
@@ -2547,7 +2547,7 @@
       \endverb
       \keyw{Galaxy clusters,Sunyaev-Zeldovich effect,X-ray astronomy,High-redshift galaxy clusters,Intracluster medium,Cool cores,584,1654,1810,2007,858,302,Astrophysics - Cosmology and Nongalactic Astrophysics}
     \endentry
-    \entry{2022EPJWC.25700024K}{inproceedings}{}
+    \entry{2022EPJWC.25700025K}{inproceedings}{}
       \name{author}{7}{}{%
         {{hash=73e36f5f1f394f762c7560678ffc2026}{%
            family={{Kéruzoré}},
@@ -2597,25 +2597,25 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{mm Universe @ NIKA2 - Observing the mm Universe with the NIKA2 Camera}
-      \field{eid}{00024}
-      \field{eprintclass}{astro-ph.IM}
+      \field{eid}{00025}
+      \field{eprintclass}{astro-ph.CO}
       \field{eprinttype}{arXiv}
       \field{month}{7}
       \field{series}{European Physical Journal Web of Conferences}
-      \field{title}{{PANCO2: A new software to measure pressure profiles from resolved thermal SZ observations}}
+      \field{title}{{Forecasting the Y$_{500}$ - M$_{500}$ scaling relation from the NIKA2 SZ Large Program}}
       \field{volume}{257}
       \field{year}{2022}
-      \field{pages}{00024}
+      \field{pages}{00025}
       \range{pages}{1}
       \verb{doi}
-      \verb 10.1051/epjconf/202225700024
+      \verb 10.1051/epjconf/202225700025
       \endverb
       \verb{eprint}
-      \verb 2111.06493
+      \verb 2111.01660
       \endverb
-      \keyw{Astrophysics - Instrumentation and Methods for Astrophysics,Astrophysics - Cosmology and Nongalactic Astrophysics}
+      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics}
     \endentry
-    \entry{2022EPJWC.25700025K}{inproceedings}{}
+    \entry{2022EPJWC.25700024K}{inproceedings}{}
       \name{author}{7}{}{%
         {{hash=73e36f5f1f394f762c7560678ffc2026}{%
            family={{Kéruzoré}},
@@ -2665,23 +2665,23 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{mm Universe @ NIKA2 - Observing the mm Universe with the NIKA2 Camera}
-      \field{eid}{00025}
-      \field{eprintclass}{astro-ph.CO}
+      \field{eid}{00024}
+      \field{eprintclass}{astro-ph.IM}
       \field{eprinttype}{arXiv}
       \field{month}{7}
       \field{series}{European Physical Journal Web of Conferences}
-      \field{title}{{Forecasting the Y$_{500}$ - M$_{500}$ scaling relation from the NIKA2 SZ Large Program}}
+      \field{title}{{PANCO2: A new software to measure pressure profiles from resolved thermal SZ observations}}
       \field{volume}{257}
       \field{year}{2022}
-      \field{pages}{00025}
+      \field{pages}{00024}
       \range{pages}{1}
       \verb{doi}
-      \verb 10.1051/epjconf/202225700025
+      \verb 10.1051/epjconf/202225700024
       \endverb
       \verb{eprint}
-      \verb 2111.01660
+      \verb 2111.06493
       \endverb
-      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics}
+      \keyw{Astrophysics - Instrumentation and Methods for Astrophysics,Astrophysics - Cosmology and Nongalactic Astrophysics}
     \endentry
     \entry{2020EPJWC.22800012K}{inproceedings}{}
       \name{author}{45}{}{%
