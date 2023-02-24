@@ -143,18 +143,33 @@
 \begin{document}
 \pagenumbering{gobble}
 
-\begin{table}[H]
-{\def\arraystretch{1.2}\tabcolsep=3pt
-    \begin{tabular}{p{.5\linewidth} r l}
+\iffrench
+    \begin{table}[H]
+    {\def\arraystretch{1.2}\tabcolsep=3pt
+        \begin{tabular}{p{.5\linewidth} r l}
 
-    {\LARGE \bfseries \textcolor{maincolor}{Florian K\'eruzor\'e}} &  &  \\[15pt]
-    Cosmological Physics \& Advanced Computing & Téléphone: & (+1) 224-277-7384 \\
-    High Energy Physics Division & Email: & \href{mailto:fkeruzore@anl.gov}{fkeruzore@anl.gov} \\
-    Argonne National Laboratory & ORCID: & \href{https://orcid.org/0000-0002-9605-5588}{0000-0002-9605-5588} \\
-    Lemont, IL, USA & Github: & \href{https://github.com/fkeruzore}{fkeruzore}
-\end{tabular}}
-\end{table}
-\vspace{-15pt}
+        {\LARGE \bfseries \textcolor{maincolor}{Florian K\'eruzor\'e}} &  &  \\[15pt]
+        Cosmological Physics \& Advanced Computing & Téléphone: & (+1) 224-277-7384 \\
+        High Energy Physics Division & Email: & \href{mailto:fkeruzore@anl.gov}{fkeruzore@anl.gov} \\
+        Argonne National Laboratory & ORCID: & \href{https://orcid.org/0000-0002-9605-5588}{0000-0002-9605-5588} \\
+        Lemont, IL, USA & Github: & \href{https://github.com/fkeruzore}{fkeruzore}
+    \end{tabular}}
+    \end{table}
+    \vspace{-15pt}
+\else
+    \begin{table}[H]
+    {\def\arraystretch{1.2}\tabcolsep=3pt
+        \begin{tabular}{p{.5\linewidth} r l}
+
+        {\LARGE \bfseries \textcolor{maincolor}{Florian K\'eruzor\'e}} &  &  \\[15pt]
+        Cosmological Physics \& Advanced Computing & Phone: & (+1) 224-277-7384 \\
+        High Energy Physics Division & Email: & \href{mailto:fkeruzore@anl.gov}{fkeruzore@anl.gov} \\
+        Argonne National Laboratory & ORCID: & \href{https://orcid.org/0000-0002-9605-5588}{0000-0002-9605-5588} \\
+        Lemont, IL, USA & Github: & \href{https://github.com/fkeruzore}{fkeruzore}
+    \end{tabular}}
+    \end{table}
+    \vspace{-15pt}
+\fi
 
 % ========================================================================== %
 % ========================================================================== %
@@ -173,6 +188,9 @@
 \newpage
 \input{\inpath/section_talks.tex}
 \input{\inpath/section_codes.tex}
+\input{\inpath/section_refs.tex}
+
+\newpage
 \input{\inpath/section_publis.tex}
 
 %\input{section_proposals.tex}
