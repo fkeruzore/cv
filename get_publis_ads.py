@@ -34,6 +34,7 @@ parser.add_argument(
     action="store_true",
 )
 args = parser.parse_args()
+path = "./contents_FR" if args.fr else "./contents_EN"
 
 token = os.environ["ADS_DEV_KEY"]
 secu_header = {"Authorization": f"Bearer {token}"}
@@ -88,7 +89,7 @@ my_bibtexs_all = bibcode_to_bibtex(my_pubs["documents"])
 if args.keepbib:
     print("Conserving current bib file")
 else:
-    bib_file = "./contents_FR/cv.bib" if args.fr else "./contents_EN/cv.bib"
+    bib_file = f"{path}/cv.bib"
     print(f"Writing {bib_file}...")
     with open(bib_file, "w") as f:
         # Start with thesis entry, not in ADS
@@ -107,7 +108,8 @@ else:
         f.write(my_bibtexs_all["export"])
 
 # Write .tex file
-tex_file = "./contents_FR/section_publis.tex" if args.fr else "./contents_EN/section_publis.tex"
+tex_file = f"{path}/section_publis.tex"
+print(f"Writing {tex_file}...")
 with open(tex_file, "w") as f:
     f.write("\\section{Publications}\n")
     n_papers = len(my_bibcodes["co_papers"]) + len(my_bibcodes["fa_papers"])
@@ -119,7 +121,7 @@ with open(tex_file, "w") as f:
     )
     # Overhead: publication counts
     if args.fr:
-        today = datetime.date.today().strftime("%d/%m/%y")
+        today = datetime.date.today().strftime("%d/%m/%Y")
         f.write(
             f"\\textbf{{{n_papers}}} "
             + "publications dans des revues à comité de lecture, "
@@ -127,11 +129,11 @@ with open(tex_file, "w") as f:
             + f"({today}).\n"
         )
     else:
-        today = datetime.date.today().strftime("%y-%m-%d")
+        today = datetime.date.today().strftime("%m-%d-%Y")
         f.write(
             f"\\textbf{{{n_papers}}} "
             + "publications in peer-reviewed journals, "
-            + f"\\textbf{{{n_procs}}} conference proceedings."
+            + f"\\textbf{{{n_procs}}} conference proceedings "
             + f"({today}).\n"
         )
 
