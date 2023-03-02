@@ -1267,102 +1267,6 @@
       \endverb
       \keyw{galaxies: clusters: general,galaxies: clusters: intracluster medium,large-scale structure of Universe,dark matter,cosmology: observations,Astrophysics - Cosmology and Nongalactic Astrophysics}
     \endentry
-    \entry{2021MNRAS.502.5115G}{article}{}
-      \name{author}{13}{}{%
-        {{hash=895e9c9a7fa8f63b1315de34750433a2}{%
-           family={{Gianfagna}},
-           familyi={G\bibinitperiod},
-           given={Giulia},
-           giveni={G\bibinitperiod}}}%
-        {{hash=18079911aca143fc8ee2b04858dc4f43}{%
-           family={{De Petris}},
-           familyi={D\bibinitperiod},
-           given={Marco},
-           giveni={M\bibinitperiod}}}%
-        {{hash=0b93abe9b5117d7e2caf50e4154b7367}{%
-           family={{Yepes}},
-           familyi={Y\bibinitperiod},
-           given={Gustavo},
-           giveni={G\bibinitperiod}}}%
-        {{hash=db6653ab3709a0b859f901762e2128d7}{%
-           family={{De Luca}},
-           familyi={D\bibinitperiod},
-           given={Federico},
-           giveni={F\bibinitperiod}}}%
-        {{hash=c6ed588112bf1e0cbd8fe6c2552c7dc7}{%
-           family={{Sembolini}},
-           familyi={S\bibinitperiod},
-           given={Federico},
-           giveni={F\bibinitperiod}}}%
-        {{hash=e0e67f9d5f9f1d688eddf87e848906fb}{%
-           family={{Cui}},
-           familyi={C\bibinitperiod},
-           given={Weiguang},
-           giveni={W\bibinitperiod}}}%
-        {{hash=f1e75343bde89488676c2642bf4bd7d3}{%
-           family={{Biffi}},
-           familyi={B\bibinitperiod},
-           given={Veronica},
-           giveni={V\bibinitperiod}}}%
-        {{hash=0c452f6ca43a510086f5a1e464a2d419}{%
-           family={{Kéruzoré}},
-           familyi={K\bibinitperiod},
-           given={Florian},
-           giveni={F\bibinitperiod}}}%
-        {{hash=3e61cd1c9e65c7c3aecd19905b47ccb5}{%
-           family={{Macı́as-Pérez}},
-           familyi={M\bibinitperiod},
-           given={Juan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=948071601f0a8c006d38406c800d9eed}{%
-           family={{Mayet}},
-           familyi={M\bibinitperiod},
-           given={Frédéric},
-           giveni={F\bibinitperiod}}}%
-        {{hash=410ef2305292c196be21922f76774326}{%
-           family={{Perotto}},
-           familyi={P\bibinitperiod},
-           given={Laurence},
-           giveni={L\bibinitperiod}}}%
-        {{hash=32326bd695e9f36055702fee229f4287}{%
-           family={{Rasia}},
-           familyi={R\bibinitperiod},
-           given={Elena},
-           giveni={E\bibinitperiod}}}%
-        {{hash=830fad367fe8d61fc9b39f52b05f9a0f}{%
-           family={{Ruppin}},
-           familyi={R\bibinitperiod},
-           given={Florian},
-           giveni={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{7c8dd514d08690b1ba0142e3aec5953b}
-      \strng{fullhash}{13d0c2e7c90a348d99f0d04725940f50}
-      \strng{bibnamehash}{7c8dd514d08690b1ba0142e3aec5953b}
-      \strng{authorbibnamehash}{7c8dd514d08690b1ba0142e3aec5953b}
-      \strng{authornamehash}{7c8dd514d08690b1ba0142e3aec5953b}
-      \strng{authorfullhash}{13d0c2e7c90a348d99f0d04725940f50}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{astro-ph.CO}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{\mnras}
-      \field{month}{4}
-      \field{number}{4}
-      \field{title}{{Exploring the hydrostatic mass bias in MUSIC clusters: application to the NIKA2 mock sample}}
-      \field{volume}{502}
-      \field{year}{2021}
-      \field{pages}{5115\bibrangedash 5133}
-      \range{pages}{19}
-      \verb{doi}
-      \verb 10.1093/mnras/stab308
-      \endverb
-      \verb{eprint}
-      \verb 2010.03634
-      \endverb
-      \keyw{methods: numerical,galaxies: clusters: general,galaxies: clusters: intracluster medium,large-scale structure of Universe,Astrophysics - Cosmology and Nongalactic Astrophysics}
-    \endentry
     \entry{2021MNRAS.502.4576R}{article}{}
       \name{author}{47}{}{%
         {{hash=df7705c86d11e4545e6bc7a999733403}{%
@@ -1607,8 +1511,8 @@
       \strng{authorbibnamehash}{d6aa5e8ed46bd95c8bd5fffc8df9c888}
       \strng{authornamehash}{d6aa5e8ed46bd95c8bd5fffc8df9c888}
       \strng{authorfullhash}{8d2c86cb310d63ab53941fc772d5347b}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{astro-ph.GA}
@@ -1628,6 +1532,102 @@
       \verb 2101.08811
       \endverb
       \keyw{surveys,stars: formation,stars: massive,ISM: evolution,ISM: structure,Galaxy: disc,Astrophysics - Astrophysics of Galaxies}
+    \endentry
+    \entry{2021MNRAS.502.5115G}{article}{}
+      \name{author}{13}{}{%
+        {{hash=895e9c9a7fa8f63b1315de34750433a2}{%
+           family={{Gianfagna}},
+           familyi={G\bibinitperiod},
+           given={Giulia},
+           giveni={G\bibinitperiod}}}%
+        {{hash=18079911aca143fc8ee2b04858dc4f43}{%
+           family={{De Petris}},
+           familyi={D\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0b93abe9b5117d7e2caf50e4154b7367}{%
+           family={{Yepes}},
+           familyi={Y\bibinitperiod},
+           given={Gustavo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=db6653ab3709a0b859f901762e2128d7}{%
+           family={{De Luca}},
+           familyi={D\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c6ed588112bf1e0cbd8fe6c2552c7dc7}{%
+           family={{Sembolini}},
+           familyi={S\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e0e67f9d5f9f1d688eddf87e848906fb}{%
+           family={{Cui}},
+           familyi={C\bibinitperiod},
+           given={Weiguang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=f1e75343bde89488676c2642bf4bd7d3}{%
+           family={{Biffi}},
+           familyi={B\bibinitperiod},
+           given={Veronica},
+           giveni={V\bibinitperiod}}}%
+        {{hash=0c452f6ca43a510086f5a1e464a2d419}{%
+           family={{Kéruzoré}},
+           familyi={K\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=3e61cd1c9e65c7c3aecd19905b47ccb5}{%
+           family={{Macı́as-Pérez}},
+           familyi={M\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=948071601f0a8c006d38406c800d9eed}{%
+           family={{Mayet}},
+           familyi={M\bibinitperiod},
+           given={Frédéric},
+           giveni={F\bibinitperiod}}}%
+        {{hash=410ef2305292c196be21922f76774326}{%
+           family={{Perotto}},
+           familyi={P\bibinitperiod},
+           given={Laurence},
+           giveni={L\bibinitperiod}}}%
+        {{hash=32326bd695e9f36055702fee229f4287}{%
+           family={{Rasia}},
+           familyi={R\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+        {{hash=830fad367fe8d61fc9b39f52b05f9a0f}{%
+           family={{Ruppin}},
+           familyi={R\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{7c8dd514d08690b1ba0142e3aec5953b}
+      \strng{fullhash}{13d0c2e7c90a348d99f0d04725940f50}
+      \strng{bibnamehash}{7c8dd514d08690b1ba0142e3aec5953b}
+      \strng{authorbibnamehash}{7c8dd514d08690b1ba0142e3aec5953b}
+      \strng{authornamehash}{7c8dd514d08690b1ba0142e3aec5953b}
+      \strng{authorfullhash}{13d0c2e7c90a348d99f0d04725940f50}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.CO}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{{Exploring the hydrostatic mass bias in MUSIC clusters: application to the NIKA2 mock sample}}
+      \field{volume}{502}
+      \field{year}{2021}
+      \field{pages}{5115\bibrangedash 5133}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1093/mnras/stab308
+      \endverb
+      \verb{eprint}
+      \verb 2010.03634
+      \endverb
+      \keyw{methods: numerical,galaxies: clusters: general,galaxies: clusters: intracluster medium,large-scale structure of Universe,Astrophysics - Cosmology and Nongalactic Astrophysics}
     \endentry
     \entry{2020A&A...642A.126R}{article}{}
       \name{author}{64}{}{%
