@@ -25,12 +25,14 @@ if [[ $FRENCH == 1 ]]; then
     if [[ $UPDATE == 1 ]]; then
         python3 get_publis_ads.py --fr
     fi
+    sed -i '' 's/J\. -F\./J\.-F\./g' ./contents_FR/cv.bib
 else
     echo '--fr not set: compiling in english'
     echo '\frenchfalse' > ./lang.tex
     if [[ $UPDATE == 1 ]]; then
         python3 get_publis_ads.py
     fi
+    sed -i '' 's/J\. -F\./J\.-F\./g' ./contents_EN/cv.bib
 fi
 
 latexmk -bibtex-cond -pdfxe -pv cv.tex
