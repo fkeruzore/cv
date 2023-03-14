@@ -21,69 +21,74 @@
   \datalist[entry]{none/global//global/global}
     \entry{2022arXiv221201439K}{article}{}
       \name{author}{7}{}{%
-        {{hash=73e36f5f1f394f762c7560678ffc2026}{%
-           family={{Kéruzoré}},
+        {{hash=0c452f6ca43a510086f5a1e464a2d419}{%
+           family={Kéruzoré},
            familyi={K\bibinitperiod},
-           given={F.},
+           given={Florian},
            giveni={F\bibinitperiod}}}%
-        {{hash=045860f129661a6f85934ef14049da7f}{%
-           family={{Mayet}},
+        {{hash=948071601f0a8c006d38406c800d9eed}{%
+           family={Mayet},
            familyi={M\bibinitperiod},
-           given={F.},
+           given={Frédéric},
            giveni={F\bibinitperiod}}}%
-        {{hash=ea6c0acb859e40a5b61bdb7852308d93}{%
-           family={{Artis}},
+        {{hash=1bc39bcee6fffb09e4f13c67ebc7b4df}{%
+           family={Artis},
            familyi={A\bibinitperiod},
-           given={E.},
+           given={Emmanuel},
            giveni={E\bibinitperiod}}}%
-        {{hash=ec64bf5fb4ff4a5af9733657c34178b0}{%
-           family={{Macı́as-Pérez}},
+        {{hash=7708f98ea60017f5f868920629d93095}{%
+           family={{Macías-Pérez}},
            familyi={M\bibinitperiod},
-           given={J.\bibnamedelimi -F.},
-           giveni={J\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
-        {{hash=a3f3ac368a87c2062923d66c65653804}{%
-           family={{Muñoz-Echeverrı́a}},
+           given={Juan-Francisco},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=33ec27d53f1f22aea33e0a6c84eedc52}{%
+           family={{Muñoz-Echeverría}},
            familyi={M\bibinitperiod},
-           given={M.},
+           given={Miren},
            giveni={M\bibinitperiod}}}%
-        {{hash=068a825a3674b639b450b49a873c7e51}{%
-           family={{Perotto}},
+        {{hash=410ef2305292c196be21922f76774326}{%
+           family={Perotto},
            familyi={P\bibinitperiod},
-           given={L.},
+           given={Laurence},
            giveni={L\bibinitperiod}}}%
-        {{hash=b0ba255a81d44f7c29e195c992a3096b}{%
-           family={{Ruppin}},
+        {{hash=830fad367fe8d61fc9b39f52b05f9a0f}{%
+           family={Ruppin},
            familyi={R\bibinitperiod},
-           given={F.},
+           given={Florian},
            giveni={F\bibinitperiod}}}%
       }
-      \strng{namehash}{8e445ee36cfb934178714c1f5e223b0e}
-      \strng{fullhash}{82d547a4702ddd935bd717817b3f66d0}
-      \strng{bibnamehash}{8e445ee36cfb934178714c1f5e223b0e}
-      \strng{authorbibnamehash}{8e445ee36cfb934178714c1f5e223b0e}
-      \strng{authornamehash}{8e445ee36cfb934178714c1f5e223b0e}
-      \strng{authorfullhash}{82d547a4702ddd935bd717817b3f66d0}
+      \list{publisher}{1}{%
+        {Maynooth Academic Publishing}%
+      }
+      \strng{namehash}{0cc3a667805bc2b40e9d32284e9a6640}
+      \strng{fullhash}{6792acd1c2876ad9060805e2e376c957}
+      \strng{bibnamehash}{0cc3a667805bc2b40e9d32284e9a6640}
+      \strng{authorbibnamehash}{0cc3a667805bc2b40e9d32284e9a6640}
+      \strng{authornamehash}{0cc3a667805bc2b40e9d32284e9a6640}
+      \strng{authorfullhash}{6792acd1c2876ad9060805e2e376c957}
       \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eid}{arXiv:2212.01439}
-      \field{eprintclass}{astro-ph.IM}
+      \field{labeltitlesource}{shorttitle}
       \field{eprinttype}{arXiv}
-      \field{journaltitle}{Accepted in OJA}
-      \field{month}{12}
-      \field{title}{{panco2: a Python library to measure intracluster medium pressure profiles from Sunyaev-Zeldovich observations}}
-      \field{year}{2022}
-      \field{pages}{arXiv:2212.01439}
-      \range{pages}{-1}
+      \field{journaltitle}{The Open Journal of Astrophysics}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{shorttitle}{panco2}
+      \field{title}{Panco2: A {{Python}} Library to Measure Intracluster Medium Pressure Profiles from {{Sunyaev-Zeldovich}} Observations}
+      \field{urlday}{14}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{volume}{6}
+      \field{year}{2023}
+      \field{urldateera}{ce}
       \verb{doi}
-      \verb 10.48550/arXiv.2212.01439
+      \verb 10.21105/astro.2212.01439
       \endverb
       \verb{eprint}
       \verb 2212.01439
       \endverb
-      \keyw{Astrophysics - Instrumentation and Methods for Astrophysics,Astrophysics - Cosmology and Nongalactic Astrophysics}
     \endentry
     \entry{2020A&A...644A..93K}{article}{}
       \name{author}{43}{}{%
@@ -220,8 +225,8 @@
         {{hash=533ed01b2459a2a5977c7aff3f629646}{%
            family={{Lestrade}},
            familyi={L\bibinitperiod},
-           given={J.\bibnamedelimi -F.},
-           giveni={J\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
+           given={J.-F.},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
         {{hash=1ef5da24ba81ea166c376ae12643659c}{%
            family={{Macı́as-Pérez}},
            familyi={M\bibinitperiod},
@@ -332,13 +337,309 @@
       \endverb
       \keyw{galaxies: clusters: intracluster medium,galaxies: clusters: individual: ACT-CL J0215.4+0030,techniques: high angular resolution,cosmology: observations,Astrophysics - Cosmology and Nongalactic Astrophysics}
     \endentry
-    \entry{2022A&A...667A..23L}{article}{}
-      \name{author}{47}{}{%
-        {{hash=440efdb849af1448c0d35e03e6225642}{%
-           family={{Lestrade}},
-           familyi={L\bibinitperiod},
+    \entry{2023A&A...671A..28M}{article}{}
+      \name{author}{53}{}{%
+        {{hash=a3f3ac368a87c2062923d66c65653804}{%
+           family={{Muñoz-Echeverrı́a}},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1ef5da24ba81ea166c376ae12643659c}{%
+           family={{Macı́as-Pérez}},
+           familyi={M\bibinitperiod},
            given={J.\bibnamedelimi F.},
            giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=89c4ca1302fe6dd35bd9316e0aa2d9a5}{%
+           family={{Pratt}},
+           familyi={P\bibinitperiod},
+           given={G.\bibnamedelimi W.},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=2e3c2dd743b0f9e12f87aeb190a08199}{%
+           family={{Adam}},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=fd270195018f636320d9cce61d4c8554}{%
+           family={{Ade}},
+           familyi={A\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1317e54bb062b5c4582f46f21477d371}{%
+           family={{Ajeddig}},
+           familyi={A\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=150399d2aaa1119f596f6fb3e4b1b267}{%
+           family={{André}},
+           familyi={A\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=91f02aef6904253aa317a3a2c8ec25a2}{%
+           family={{Arnaud}},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ea6c0acb859e40a5b61bdb7852308d93}{%
+           family={{Artis}},
+           familyi={A\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=097c1d7f988b050a0e81f165b6b6c06f}{%
+           family={{Aussel}},
+           familyi={A\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d493078031984b1907701563bef6f2dd}{%
+           family={{Bartalucci}},
+           familyi={B\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=c539e6064c242f9da9278ae77f7db276}{%
+           family={{Beelen}},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9c14379e5b9d67bd7a404da1f072857a}{%
+           family={{Benoı̂t}},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=012c84b9b88fc0d512aa20247c208739}{%
+           family={{Berta}},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=523eb2d1658d8da9f30500939b2188f5}{%
+           family={{Bing}},
+           familyi={B\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=303ce6ab20afa210d905178d39d79aeb}{%
+           family={{Bourrion}},
+           familyi={B\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=d94899789d514df7a10e24eaeadb6d7b}{%
+           family={{Calvo}},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7be1876395280bd7475f603dc76c4462}{%
+           family={{Catalano}},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8bc4d773568ee42450c681e1ba092010}{%
+           family={{De Petris}},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=174ae11cccfb8147a902b5765214fd92}{%
+           family={{Désert}},
+           familyi={D\bibinitperiod},
+           given={F.\bibnamedelimi -X.},
+           giveni={F\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
+        {{hash=1d6ebaf3555e95d7a29d3d40264815b3}{%
+           family={{Doyle}},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=82efb57e7c47135e30207792dbda2469}{%
+           family={{Driessen}},
+           familyi={D\bibinitperiod},
+           given={E.\bibnamedelimi F.\bibnamedelimi C.},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=dc499d79b65cde80277d3b4e584e9bd6}{%
+           family={{Ferragamo}},
+           familyi={F\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dcbf59240f81dbaf571a4eb63efb4d1f}{%
+           family={{Gomez}},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=538dd5add43e30da9430f0a778072ec0}{%
+           family={{Goupy}},
+           familyi={G\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=acf930de6f0d4460385eb7b27e35ea98}{%
+           family={{Hanser}},
+           familyi={H\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=73e36f5f1f394f762c7560678ffc2026}{%
+           family={{Kéruzoré}},
+           familyi={K\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=444335950387d977a1c2c0b8526831db}{%
+           family={{Kramer}},
+           familyi={K\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b0aa1d7b7636e727b639fdd852be02fe}{%
+           family={{Ladjelate}},
+           familyi={L\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3dcda51e0faa9375e8e2981fa8b28b4b}{%
+           family={{Lagache}},
+           familyi={L\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=da4e7cd35799483b0259edde15f08a87}{%
+           family={{Leclercq}},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=533ed01b2459a2a5977c7aff3f629646}{%
+           family={{Lestrade}},
+           familyi={L\bibinitperiod},
+           given={J.-F.},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=4af3cc4a62ff60139abd1500ef855ae7}{%
+           family={{Maury}},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=91931ec0cea307d3db6ed78fdf98ad0e}{%
+           family={{Mauskopf}},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=045860f129661a6f85934ef14049da7f}{%
+           family={{Mayet}},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=596bec9d31ba1efe3e4d745a37b2b1b6}{%
+           family={{Melin}},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi -B.},
+           giveni={J\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
+        {{hash=65efc046e28e349ff416384eaa8a4b8e}{%
+           family={{Monfardini}},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4a7862a0fb750aeeb51825a9884a0cf0}{%
+           family={{Paliwal}},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=068a825a3674b639b450b49a873c7e51}{%
+           family={{Perotto}},
+           familyi={P\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=bb7ed24979b6b1ac544ae5d1a3284872}{%
+           family={{Pisano}},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c1a635cb2099812407ea0b4275994948}{%
+           family={{Pointecouteau}},
+           familyi={P\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=c36cf1990e7b840032f98e0bbad53ebe}{%
+           family={{Ponthieu}},
+           familyi={P\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=4c6e457c6a60c08547e4e26639a4ce71}{%
+           family={{Revéret}},
+           familyi={R\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=df7705c86d11e4545e6bc7a999733403}{%
+           family={{Rigby}},
+           familyi={R\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=196bbf87d855aee0d112a402147734f4}{%
+           family={{Ritacco}},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d68968ae91ac5e2aa9184b8153c906b9}{%
+           family={{Romero}},
+           familyi={R\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=fe71c3265c3ecccd5270092f98979f5a}{%
+           family={{Roussel}},
+           familyi={R\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b0ba255a81d44f7c29e195c992a3096b}{%
+           family={{Ruppin}},
+           familyi={R\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e8153afc256392f244b693da1c779d39}{%
+           family={{Schuster}},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=555c5f8ecbbbff7bfbc0f9c685e5b9f7}{%
+           family={{Shu}},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bd860a44b0e7a9bffde0bf9f7e4e2a1b}{%
+           family={{Sievers}},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f52b1162df2f12e0acce6a57af2cf3f5}{%
+           family={{Tucker}},
+           familyi={T\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=db5cd5d2a04327662f59957f98803517}{%
+           family={{Yepes}},
+           familyi={Y\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{31c5ecd55b3729d9a4522e55165d708c}
+      \strng{fullhash}{5f18d89faf1c1fffe089863741a9ba47}
+      \strng{bibnamehash}{31c5ecd55b3729d9a4522e55165d708c}
+      \strng{authorbibnamehash}{31c5ecd55b3729d9a4522e55165d708c}
+      \strng{authornamehash}{31c5ecd55b3729d9a4522e55165d708c}
+      \strng{authorfullhash}{5f18d89faf1c1fffe089863741a9ba47}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{A28}
+      \field{eprintclass}{astro-ph.CO}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\aap}
+      \field{month}{3}
+      \field{title}{{Multi-probe analysis of the galaxy cluster CL J1226.9+3332. Hydrostatic mass and hydrostatic-to-lensing bias}}
+      \field{volume}{671}
+      \field{year}{2023}
+      \field{pages}{A28}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1051/0004-6361/202244981
+      \endverb
+      \verb{eprint}
+      \verb 2209.07460
+      \endverb
+      \keyw{galaxies: clusters: intracluster medium,galaxies: clusters: individual: CL J1226.9+3332,techniques: high angular resolution,cosmology: observations,Astrophysics - Cosmology and Nongalactic Astrophysics}
+    \endentry
+    \entry{2022A&A...667A..23L}{article}{}
+      \name{author}{47}{}{%
+        {{hash=533ed01b2459a2a5977c7aff3f629646}{%
+           family={{Lestrade}},
+           familyi={L\bibinitperiod},
+           given={J.-F.},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
         {{hash=174ae11cccfb8147a902b5765214fd92}{%
            family={{Désert}},
            familyi={D\bibinitperiod},
@@ -570,14 +871,14 @@
            given={R.},
            giveni={R\bibinitperiod}}}%
       }
-      \strng{namehash}{47ad59f62229d0d7b82a508e2506d725}
-      \strng{fullhash}{9905d6251756c67d248cb7b150584792}
-      \strng{bibnamehash}{47ad59f62229d0d7b82a508e2506d725}
-      \strng{authorbibnamehash}{47ad59f62229d0d7b82a508e2506d725}
-      \strng{authornamehash}{47ad59f62229d0d7b82a508e2506d725}
-      \strng{authorfullhash}{9905d6251756c67d248cb7b150584792}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \strng{namehash}{4db54e76a15c14c2b34b83997d4b78f4}
+      \strng{fullhash}{1164fefc9ef2a68a36377f5f9159951b}
+      \strng{bibnamehash}{4db54e76a15c14c2b34b83997d4b78f4}
+      \strng{authorbibnamehash}{4db54e76a15c14c2b34b83997d4b78f4}
+      \strng{authornamehash}{4db54e76a15c14c2b34b83997d4b78f4}
+      \strng{authorfullhash}{1164fefc9ef2a68a36377f5f9159951b}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eid}{A23}
@@ -597,301 +898,6 @@
       \verb 2209.12904
       \endverb
       \keyw{early Universe,Galaxy: formation,Astrophysics - Cosmology and Nongalactic Astrophysics}
-    \endentry
-    \entry{2022arXiv220907460M}{article}{}
-      \name{author}{53}{}{%
-        {{hash=a3f3ac368a87c2062923d66c65653804}{%
-           family={{Muñoz-Echeverrı́a}},
-           familyi={M\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=1ef5da24ba81ea166c376ae12643659c}{%
-           family={{Macı́as-Pérez}},
-           familyi={M\bibinitperiod},
-           given={J.\bibnamedelimi F.},
-           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=89c4ca1302fe6dd35bd9316e0aa2d9a5}{%
-           family={{Pratt}},
-           familyi={P\bibinitperiod},
-           given={G.\bibnamedelimi W.},
-           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=2e3c2dd743b0f9e12f87aeb190a08199}{%
-           family={{Adam}},
-           familyi={A\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=fd270195018f636320d9cce61d4c8554}{%
-           family={{Ade}},
-           familyi={A\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=1317e54bb062b5c4582f46f21477d371}{%
-           family={{Ajeddig}},
-           familyi={A\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=150399d2aaa1119f596f6fb3e4b1b267}{%
-           family={{André}},
-           familyi={A\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=91f02aef6904253aa317a3a2c8ec25a2}{%
-           family={{Arnaud}},
-           familyi={A\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=ea6c0acb859e40a5b61bdb7852308d93}{%
-           family={{Artis}},
-           familyi={A\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
-        {{hash=097c1d7f988b050a0e81f165b6b6c06f}{%
-           family={{Aussel}},
-           familyi={A\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=d493078031984b1907701563bef6f2dd}{%
-           family={{Bartalucci}},
-           familyi={B\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod}}}%
-        {{hash=c539e6064c242f9da9278ae77f7db276}{%
-           family={{Beelen}},
-           familyi={B\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=9c14379e5b9d67bd7a404da1f072857a}{%
-           family={{Benoı̂t}},
-           familyi={B\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=012c84b9b88fc0d512aa20247c208739}{%
-           family={{Berta}},
-           familyi={B\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=523eb2d1658d8da9f30500939b2188f5}{%
-           family={{Bing}},
-           familyi={B\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=303ce6ab20afa210d905178d39d79aeb}{%
-           family={{Bourrion}},
-           familyi={B\bibinitperiod},
-           given={O.},
-           giveni={O\bibinitperiod}}}%
-        {{hash=d94899789d514df7a10e24eaeadb6d7b}{%
-           family={{Calvo}},
-           familyi={C\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=7be1876395280bd7475f603dc76c4462}{%
-           family={{Catalano}},
-           familyi={C\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=8bc4d773568ee42450c681e1ba092010}{%
-           family={{De Petris}},
-           familyi={D\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=174ae11cccfb8147a902b5765214fd92}{%
-           family={{Désert}},
-           familyi={D\bibinitperiod},
-           given={F.\bibnamedelimi -X.},
-           giveni={F\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
-        {{hash=1d6ebaf3555e95d7a29d3d40264815b3}{%
-           family={{Doyle}},
-           familyi={D\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=82efb57e7c47135e30207792dbda2469}{%
-           family={{Driessen}},
-           familyi={D\bibinitperiod},
-           given={E.\bibnamedelimi F.\bibnamedelimi C.},
-           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=dc499d79b65cde80277d3b4e584e9bd6}{%
-           family={{Ferragamo}},
-           familyi={F\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=dcbf59240f81dbaf571a4eb63efb4d1f}{%
-           family={{Gomez}},
-           familyi={G\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=538dd5add43e30da9430f0a778072ec0}{%
-           family={{Goupy}},
-           familyi={G\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=acf930de6f0d4460385eb7b27e35ea98}{%
-           family={{Hanser}},
-           familyi={H\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=73e36f5f1f394f762c7560678ffc2026}{%
-           family={{Kéruzoré}},
-           familyi={K\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-        {{hash=444335950387d977a1c2c0b8526831db}{%
-           family={{Kramer}},
-           familyi={K\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=b0aa1d7b7636e727b639fdd852be02fe}{%
-           family={{Ladjelate}},
-           familyi={L\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=3dcda51e0faa9375e8e2981fa8b28b4b}{%
-           family={{Lagache}},
-           familyi={L\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod}}}%
-        {{hash=da4e7cd35799483b0259edde15f08a87}{%
-           family={{Leclercq}},
-           familyi={L\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=533ed01b2459a2a5977c7aff3f629646}{%
-           family={{Lestrade}},
-           familyi={L\bibinitperiod},
-           given={J.\bibnamedelimi -F.},
-           giveni={J\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
-        {{hash=4af3cc4a62ff60139abd1500ef855ae7}{%
-           family={{Maury}},
-           familyi={M\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=91931ec0cea307d3db6ed78fdf98ad0e}{%
-           family={{Mauskopf}},
-           familyi={M\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=045860f129661a6f85934ef14049da7f}{%
-           family={{Mayet}},
-           familyi={M\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-        {{hash=596bec9d31ba1efe3e4d745a37b2b1b6}{%
-           family={{Melin}},
-           familyi={M\bibinitperiod},
-           given={J.\bibnamedelimi -B.},
-           giveni={J\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
-        {{hash=65efc046e28e349ff416384eaa8a4b8e}{%
-           family={{Monfardini}},
-           familyi={M\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=4a7862a0fb750aeeb51825a9884a0cf0}{%
-           family={{Paliwal}},
-           familyi={P\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=068a825a3674b639b450b49a873c7e51}{%
-           family={{Perotto}},
-           familyi={P\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=bb7ed24979b6b1ac544ae5d1a3284872}{%
-           family={{Pisano}},
-           familyi={P\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod}}}%
-        {{hash=c1a635cb2099812407ea0b4275994948}{%
-           family={{Pointecouteau}},
-           familyi={P\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
-        {{hash=c36cf1990e7b840032f98e0bbad53ebe}{%
-           family={{Ponthieu}},
-           familyi={P\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod}}}%
-        {{hash=4c6e457c6a60c08547e4e26639a4ce71}{%
-           family={{Revéret}},
-           familyi={R\bibinitperiod},
-           given={V.},
-           giveni={V\bibinitperiod}}}%
-        {{hash=df7705c86d11e4545e6bc7a999733403}{%
-           family={{Rigby}},
-           familyi={R\bibinitperiod},
-           given={A.\bibnamedelimi J.},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=196bbf87d855aee0d112a402147734f4}{%
-           family={{Ritacco}},
-           familyi={R\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=d68968ae91ac5e2aa9184b8153c906b9}{%
-           family={{Romero}},
-           familyi={R\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=fe71c3265c3ecccd5270092f98979f5a}{%
-           family={{Roussel}},
-           familyi={R\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=b0ba255a81d44f7c29e195c992a3096b}{%
-           family={{Ruppin}},
-           familyi={R\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-        {{hash=e8153afc256392f244b693da1c779d39}{%
-           family={{Schuster}},
-           familyi={S\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod}}}%
-        {{hash=555c5f8ecbbbff7bfbc0f9c685e5b9f7}{%
-           family={{Shu}},
-           familyi={S\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=bd860a44b0e7a9bffde0bf9f7e4e2a1b}{%
-           family={{Sievers}},
-           familyi={S\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=f52b1162df2f12e0acce6a57af2cf3f5}{%
-           family={{Tucker}},
-           familyi={T\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=db5cd5d2a04327662f59957f98803517}{%
-           family={{Yepes}},
-           familyi={Y\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{31c5ecd55b3729d9a4522e55165d708c}
-      \strng{fullhash}{5f18d89faf1c1fffe089863741a9ba47}
-      \strng{bibnamehash}{31c5ecd55b3729d9a4522e55165d708c}
-      \strng{authorbibnamehash}{31c5ecd55b3729d9a4522e55165d708c}
-      \strng{authornamehash}{31c5ecd55b3729d9a4522e55165d708c}
-      \strng{authorfullhash}{5f18d89faf1c1fffe089863741a9ba47}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eid}{arXiv:2209.07460}
-      \field{eprintclass}{astro-ph.CO}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{Accepted in \aap}
-      \field{month}{9}
-      \field{title}{{Multi-probe analysis of the galaxy cluster CL J1226.9+3332: Hydrostatic mass and hydrostatic-to-lensing bias}}
-      \field{year}{2022}
-      \field{pages}{arXiv:2209.07460}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.48550/arXiv.2209.07460
-      \endverb
-      \verb{eprint}
-      \verb 2209.07460
-      \endverb
-      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics}
     \endentry
     \entry{2021A&A...650A.104C}{article}{}
       \name{author}{69}{}{%
@@ -1412,8 +1418,8 @@
         {{hash=533ed01b2459a2a5977c7aff3f629646}{%
            family={{Lestrade}},
            familyi={L\bibinitperiod},
-           given={J.\bibnamedelimi -F.},
-           giveni={J\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
+           given={J.-F.},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
         {{hash=1ef5da24ba81ea166c376ae12643659c}{%
            family={{Macı́as-Pérez}},
            familyi={M\bibinitperiod},
@@ -1834,8 +1840,8 @@
         {{hash=533ed01b2459a2a5977c7aff3f629646}{%
            family={{Lestrade}},
            familyi={L\bibinitperiod},
-           given={J.\bibnamedelimi -F.},
-           giveni={J\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
+           given={J.-F.},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
         {{hash=1ef5da24ba81ea166c376ae12643659c}{%
            family={{Macı́as-Pérez}},
            familyi={M\bibinitperiod},
@@ -2130,8 +2136,8 @@
         {{hash=533ed01b2459a2a5977c7aff3f629646}{%
            family={{Lestrade}},
            familyi={L\bibinitperiod},
-           given={J.\bibnamedelimi -F.},
-           giveni={J\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
+           given={J.-F.},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
         {{hash=4af3cc4a62ff60139abd1500ef855ae7}{%
            family={{Maury}},
            familyi={M\bibinitperiod},
@@ -2416,8 +2422,8 @@
         {{hash=533ed01b2459a2a5977c7aff3f629646}{%
            family={{Lestrade}},
            familyi={L\bibinitperiod},
-           given={J.\bibnamedelimi -F.},
-           giveni={J\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
+           given={J.-F.},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
         {{hash=1ef5da24ba81ea166c376ae12643659c}{%
            family={{Macı́as-Pérez}},
            familyi={M\bibinitperiod},
@@ -2568,8 +2574,8 @@
         {{hash=ec64bf5fb4ff4a5af9733657c34178b0}{%
            family={{Macı́as-Pérez}},
            familyi={M\bibinitperiod},
-           given={J.\bibnamedelimi -F.},
-           giveni={J\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
+           given={J.-F.},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
         {{hash=045860f129661a6f85934ef14049da7f}{%
            family={{Mayet}},
            familyi={M\bibinitperiod},
@@ -2636,8 +2642,8 @@
         {{hash=ec64bf5fb4ff4a5af9733657c34178b0}{%
            family={{Macı́as-Pérez}},
            familyi={M\bibinitperiod},
-           given={J.\bibnamedelimi -F.},
-           giveni={J\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
+           given={J.-F.},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
         {{hash=045860f129661a6f85934ef14049da7f}{%
            family={{Mayet}},
            familyi={M\bibinitperiod},
@@ -2819,8 +2825,8 @@
         {{hash=533ed01b2459a2a5977c7aff3f629646}{%
            family={{Lestrade}},
            familyi={L\bibinitperiod},
-           given={J.\bibnamedelimi -F.},
-           giveni={J\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
+           given={J.-F.},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
         {{hash=1ef5da24ba81ea166c376ae12643659c}{%
            family={{Macı́as-Pérez}},
            familyi={M\bibinitperiod},
