@@ -24,20 +24,20 @@ if [[ $FRENCH == 1 ]]; then
     echo '\frenchtrue' > ./lang.tex
     if [[ $UPDATE == 1 ]]; then
         python3 get_publis_ads.py --fr
-    else
-        python3 get_publis_ads.py --fr --keepbib
     fi
 else
     echo '--fr not set: compiling in english'
     echo '\frenchfalse' > ./lang.tex
     if [[ $UPDATE == 1 ]]; then
         python3 get_publis_ads.py
-    else
-        python3 get_publis_ads.py --keepbib
     fi
 fi
 
 latexmk -bibtex-cond -pdfxe -pv cv.tex
 latexmk -bibtex-cond -pdfxe -c cv.tex
 
-cp cv.pdf CV_Florian_Keruzore.pdf
+if [[ $FRENCH == 1 ]]; then
+    cp cv.pdf CV_Florian_Keruzore_FR.pdf
+else
+    cp cv.pdf CV_Florian_Keruzore.pdf
+fi
